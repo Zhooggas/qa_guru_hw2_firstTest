@@ -24,6 +24,5 @@ public class DragAndDropTest {
 
         $("#column-b header").shouldHave(text("A"));
 
-        sleep(5000);
     }
 }
