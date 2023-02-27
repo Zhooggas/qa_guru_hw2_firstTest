@@ -1,6 +1,6 @@
 package learningJava;
 
-public class WorkWithTypesTest {
+public class WorkWithTypes {
 
     public static void main(String[] args) {
 
