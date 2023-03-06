@@ -4,7 +4,6 @@ import com.codeborne.selenide.SelenideElement;
 import pages.components.CalendarComponent;
 import pages.components.RegistrationDataInputResultsForm;
 
-import javax.swing.*;
 import java.io.File;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -24,6 +23,8 @@ public class DemoQaRegistrationPage {
 
     public DemoQaRegistrationPage openRegistrationPage(){
         open("/automation-practice-form");
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
         return this;
     }
 
